@@ -34,5 +34,21 @@ $\color{magenta}{\text{Dan is highly technically skilled and is looking for weak
 7. $\color{yellow}{\text{Kiara is a senior researcher at an independently funded research organization}}$
 $\color{green}{\text{Kiara has a lot of projects and data that are a part of white papers they are publishing for their organization.}}$
 $\color{cyan}{\text{Kiara needs to upload data to a site that can store it long term, that is accessible to people who aren't at an institution, and the project needs to move quickly to get the paper out while the topic is still pressing.}}$
-$\color{magenta}{\text{Kiara is fairly technically skilled with this sort of site and it is really important to her that the upload is smooth and there is fast customer service if any issues are encountered.}}$\
+$\color{magenta}{\text{Kiara is fairly technically skilled with this sort of site and it is really important to her that the upload is smooth and there is fast customer service if any issues are encountered.}}$
 
+8. $\color{yellow}{\text{Eldar is a tenured faculty member in a psychology department.}}$
+$\color{green}{\text{Eldar is close to retirement and has a career's worth of null results just sitting on his computer on various scattered servers and in physical documents in his office. As he is approaching retirement he wants to consolidate all his unpublished work in one place but doesn't know where to put it, how to organize it, or what data is okay to share publicly.}}$
+$\color{cyan}{\text{He wants a website that is easy to navigate to upload all of his various projects from over the years into one place so future students and collaborators can easily access his work. We wants this to be feasible for multiple projects at once to be organized on the site and stored with his profile so people know it's his own work. He also wants to get credit if anyone uses his data.}}$
+$\color{magenta}{\text{Eldar is new to using repositories like this and is skeptical of making his data accessible to people on the internet, he wants to control exactly what people can see and make sure some of the data is only available to his collaborators.}}$
+
+
+9. $\color{yellow}{\text{MJ is a student working to create this file drawer project.}}$
+$\color{green}{\text{They want to create a null results repository that is used across different fields as an place that is easily searchable for researchers to publish their null results. They receive comments about issues on the site from users and collaborators and need to be able to fix the changes quickly and communicate with users when there are issues. }}$
+$\color{cyan}{\text{MJ wants to have a way to quickly communicate with users on the site when there are issues and help resolve them, MJ also wants to be able to pass off issues to co-workers when needed and have collaborators access the issues directly}}$
+$\color{magenta}{\text{MJ has the skills and access to manage the site but needs a way to communicate with other team members and the users themselves.}}$
+
+
+9. $\color{yellow}{\text{Sky works as a librarian at a local community college.}}$
+$\color{green}{\text{They have a student who is interested in conducting a meta-analysis, and has already looked through the relevant literature on their topic of interest. The student  wants to know if their  idea has been studied before, and if there is other data that hasn't been published that can be a part of their review. }}$
+$\color{cyan}{\text{Sky wants to recommend a site to the student where they can find data to use for their project, and write up the meta-analysis. They want the site to be understandable for students, and the data on the site to be real and reliable, so the student is sure they are including real data in their paper.}}$
+$\color{magenta}{\text{Sky can navigate the site well but isn't sure how to check the credibility of the data and sources.}}$
