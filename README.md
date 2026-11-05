@@ -3,8 +3,11 @@ This code repository (or "repo") is designed to demonstrate the best GitHub has 
 
 ## Contributors
 MJ Schneider: add jobs here
+
 Abhi Sidhu: 
+
 Aseel Rawashdeh
+
 Lay Heng Teng: 
 
 
