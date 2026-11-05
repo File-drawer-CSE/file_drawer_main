@@ -2,13 +2,13 @@
 This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
 
 ## Contributors
-MJ Schneider: add jobs here
+MJ Schneider: PhD Student in Social Psychology
 
-Abhi Sidhu: 
+Abhi Sidhu: PhD student environmental engineering
 
-Aseel Rawashdeh
+Aseel Rawashdeh: PhD student in statistics 
 
-Lay Heng Teng: 
+Lay Heng Teng: PhD student in molecular engineer 
 
 
 File Drawer is a platform for sharing failed project experiments, null results, or ineffective methods to facilitate more open science! 
