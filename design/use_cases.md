@@ -6,7 +6,7 @@ CSE 583 File Drawer project. Prevalence labels are qualitative. Primary
 tasks reflect stated user needs; operational workflows are proposed
 sequences to validate with the group.
 
-## UC-01: Search and Retrieve Research Records
+## UC-01: Search and Retrieve Research Records (priority)
 
 **Prevalence:** Very High
 
@@ -36,7 +36,7 @@ system searches available research records. 4. The system displays
 matching studies. 5. User selects a study to review its information and
 supporting files.
 
-## UC-02: Navigate the Repository Without Programming Experience
+## UC-02: Navigate the Repository Without Programming Experience (priority)
 
 **Prevalence:** Very High
 
@@ -67,7 +67,7 @@ action.
 **Note:** This is primarily a usability requirement applying to multiple
 use cases, rather than a separate system interaction.
 
-## UC-03: Access and Reuse Existing Research Data
+## UC-03: Access and Reuse Existing Research Data (priority)
 
 **Prevalence:** High
 
@@ -96,7 +96,7 @@ analysis.
 
 ## UC-04: Organize Interdisciplinary Research
 
-**Prevalence:** High
+**Prevalence:** low, starting with just psychology
 
 ### Who is the User?
 
@@ -127,9 +127,9 @@ categories. 5. The system displays relevant research information.
 universal metadata fields, discipline-specific templates, or a hybrid
 approach.
 
-## UC-05: Submit and Preserve Unpublished Research
+## UC-05: Submit and Preserve Unpublished Research (priority)
 
-**Prevalence:** Moderate-High
+**Prevalence:** Very High
 
 ### Who is the User?
 
@@ -152,9 +152,9 @@ User provides information describing the research. 3. User uploads
 relevant files. 4. The system stores the research record and associated
 files. 5. User accesses the stored record when needed.
 
-## UC-06: Share Research and Collaborate with Others
+## UC-06: Share Research and Collaborate with Others (priority)
 
-**Prevalence:** Moderate
+**Prevalence:** High
 
 ### Who is the User?
 
