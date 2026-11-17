@@ -36,6 +36,12 @@ system searches available research records. 4. The system displays
 matching studies. 5. User selects a study to review its information and
 supporting files.
 
+**Functional needs:** 1. Create a search bar where you can type any characters 2. Interface connected to search bar that takes input from search bar and produces a result including some sort of keyword match 3. Add keyword/ genre/ domain filtering if possible 3. Page with search results that user can interact with to view each entry 4. Create a format for each search result that stores the metadata with the files/ profile for the corresponding project 4. Some way for users to be able to download files associated with a particular null result entry. 
+
+**Accessibility needs:** 1. Page works with screen reader for low visibility users 2. 
+
+** Uncertainties/ assumptions:** 1. People know what they're looking for 
+
 ## UC-02: Navigate the Repository Without Programming Experience (priority)
 
 **Prevalence:** Very High
