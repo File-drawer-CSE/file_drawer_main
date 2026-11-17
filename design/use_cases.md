@@ -76,6 +76,18 @@ searching or uploading. 3. User follows the interface to complete the
 task. 4. The system displays results or confirmation of the completed
 action.
 
+**Functional needs:** 1. Create a website for navigating the repository 2. Create instructions for user for uploading their own data 3. Create a series of webpages that uses go through to upload data that is synced with the repository and automatically uploads files and metadata 4. Create integration with google/ facebook/ orchid for people to create a profile 5. Create user profile page on website 6. Decide on required and optional fields for upload. 
+
+**Accessibility needs:** 1. Clear instructions 2. Information for who to call if a user needs help (number, chat bot, email etc..) 
+
+**Uncertainties/ assumptions:** 1. Who do people contact if they have issues?
+
+**Standard workflow:** 
+1. When the user wants to upload data the system will provide several pages with prompts for entering metadata and uploading files. 
+2. When the user finishes uploading data the system will automatically store it and make it searchable.
+3. When the user creates an account the system will automatically offer to create an account with their google or orchid login information
+4. When the user creates an account they will be able to view and edit their profile on the website. 
+
 **Note:** This is primarily a usability requirement applying to multiple
 use cases, rather than a separate system interaction.
 
