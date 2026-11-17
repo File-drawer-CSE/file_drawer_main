@@ -38,9 +38,15 @@ supporting files.
 
 **Functional needs:** 1. Create a search bar where you can type any characters 2. Interface connected to search bar that takes input from search bar and produces a result including some sort of keyword match 3. Add keyword/ genre/ domain filtering if possible 3. Page with search results that user can interact with to view each entry 4. Create a format for each search result that stores the metadata with the files/ profile for the corresponding project 4. Some way for users to be able to download files associated with a particular null result entry. 
 
-**Accessibility needs:** 1. Page works with screen reader for low visibility users 2. 
+**Accessibility needs:** 1. Page works with screen reader for low visibility users 2. Easy and visible search buttons and clear instructions throughout the page 
 
-** Uncertainties/ assumptions:** 1. People know what they're looking for 
+**Uncertainties/ assumptions:** 1. People know what they're looking for 2. what if people misspell search entries or there are not exact matches, how will we recommend results? 3. Do we care about web scrapers? Do we want to limit the number of downloads a user can make each day? 
+
+**Standard workflow:** 
+1. When the user Creates an account the system should store their profile information in our database and the user can login with that information for future sessions
+2. When the user search the repository by typing the system should return results that most closely match their search. If there are no matches system returns a message saying there are no matches (or ideally suggesting different results) 
+3. User use filtering for results system will narrow down null result entries to those that fit the selected metadata criteria
+4. User saves entries of interest (maybe using starring or favoriting) and the system creates a collection of entries on a page that is connected with the user profile 
 
 ## UC-02: Navigate the Repository Without Programming Experience (priority)
 
