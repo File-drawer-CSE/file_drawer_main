@@ -25,3 +25,7 @@ classifiers = [
 ]
 
 [tool.setuptools_scm]
+
+[project.urls]
+Homepage = "https://github.com/your_repo"
+Issues = "https://github.com/your_repo/issues"
