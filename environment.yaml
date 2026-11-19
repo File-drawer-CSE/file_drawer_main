@@ -1,6 +1,6 @@
 # Sample conda yaml
 
-name: pyradiosky
+name: pyradiosky #name of environment
 channels:
   - conda-forge
 dependencies:
