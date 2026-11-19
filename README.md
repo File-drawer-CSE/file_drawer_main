@@ -2,7 +2,7 @@
 This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
 
 ## Contributors
-MJ Schneider: PhD Student in Social Psychology
+MJ Schneider: PhD student in Social Psychology
 
 Abhi Sidhu: PhD student environmental engineering
 
