@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64.0”, "wheel", "setuptools_scm>=8.1"]
+build-backend = "setuptools.build_meta”
+
+[project]
+name = "package-name"
+dynamic = ["version"]
+authors = [
+  {name="name1", email="email1@uw.edu"},
+  {name="name2", email="email2@uw.edu"},
+  {name="name2", email="email2@uw.edu"},
+  {name="Abhi Sidhu", email="abhiss09@uw.edu"},
+]
+description = "One line package description"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	"numpy>=1.25",
+    "pandas>=2.1",
+] 
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools_scm]
