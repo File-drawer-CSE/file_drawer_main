@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: file-drawer
+Version: 0.1.dev39+g8c409230b.d20261124
+Summary: One line package description
+Author-email: name1 <email1@uw.edu>, name2 <email2@uw.edu>, name2 <email2@uw.edu>, Abhi Sidhu <abhiss09@uw.edu>
+Project-URL: Homepage, https://github.com/your_repo
+Project-URL: Issues, https://github.com/your_repo/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.25
+Requires-Dist: pandas>=2.1
+Requires-Dist: pytest>=8.3.3
+
+# Welcome to your organization's demo respository
+This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+
+## Contributors
+MJ Schneider: add jobs here
+
+Abhi Sidhu: 
+
+Aseel Rawashdeh
+
+Lay Heng Teng: 
+
+
+File Drawer is a platform for sharing failed project experiments, null results, or ineffective methods to facilitate more open science! 
+
+Happy early Thanksgiving!
+
+Yay!

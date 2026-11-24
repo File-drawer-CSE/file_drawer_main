@@ -1,0 +1,15 @@
+{
+  "files": [
+    ".github/workflows/testsuite.yaml",
+    "README.md",
+    "constitution.md",
+    "design/use_cases.md",
+    "design/user_stories.md",
+    "environment.yaml",
+    "index.html",
+    "package.json",
+    "pyproject.toml",
+    "src/.gitkeep",
+    "tests/test_my_module.py"
+  ]
+}
