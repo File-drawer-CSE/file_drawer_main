@@ -3,7 +3,7 @@ requires = ["setuptools>=64.0", "wheel", "setuptools_scm>=8.1"]
 build-backend = "setuptools.build_meta”
 
 [project]
-name = "package-name"
+name = "file-drawer"
 dynamic = ["version"]
 authors = [
   {name="name1", email="email1@uw.edu"},
