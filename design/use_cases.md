@@ -428,6 +428,42 @@ respond when necessary.
 group still needs to determine which security safeguards and monitoring
 capabilities are appropriate.
 
+**Functional needs:** 1.	System should log all user actions (logins, searches, failed access attempts) with timestamps and user IDs. 
+2.	System should only allow users to view/download resources they are authorized for. 
+3.	System should apply rate-limiting rules (e.g. cap the number of downloads) to prevent scraping large amounts of data. 
+4.	System should flag activity that crosses defined thresholds (e.g. repeated failed login attempts and unusually high download volume). 
+5.	System should automatically respond to flagged activity with growing actions (e.g. CAPTCHA challenge, temporary account logout, and restricting actions). 
+6.	 System should notify administrators when suspicious activity is flagged with a dashboard where they can review the incidents. 
+7.	System should allow administrators to manually ban, suspend, or restrict a user account. 
+
+**Accessibility needs:** 
+1.	Admin security dashboard should be screen-reader accessible with clearly labeled alerts and action buttons.
+2.	CAPTCHA or bot-detection challenges presented to users should offer accessible alternatives. 
+3.	Notifications to users about account restrictions or lockouts should be clearly worded and accessible. 
+
+**Uncertainties/ assumptions:** 
+1.	How do we define thresholds for "suspicious" activity? 
+2.	There can be overlap between innocent and malicious behavior.
+3.	Do we need to comply with specific institutional or legal requirements around logging user behavior and data retention?
+4.	Should the system support IP-based blocking, or only account-based restrictions?
+5.	How long should activity logs be retained?
+6.	Do we assume all users must have authenticated accounts, or do we also need to handle anonymous/guest access?
+
+**Standard workflow:** 
+Standard Workflow: 
+1.	When a user creates an account, the system stores their credentials and assigns a default permission role. During registration, the system presents a CAPTCHA challenge to verify the user is human.
+2.	When a user performs any action (search, view, download), the system logs the action with a timestamp and user ID.
+3.	When a user attempts to access a restricted resource, the system checks their role permissions and denies the request if unauthorized, logging the failed attempt.
+4.	When a user's activity exceeds defined thresholds (e.g., too many downloads or failed access attempts in a short period), the system automatically flags the account and may apply a temporary restriction (lockout, CAPTCHA re-verification, or reduced permissions).
+5.	When activity is flagged, the system sends a notification to repository administrators with details of the incident.
+6.	An administrator reviews the flagged activity on a security dashboard and decides whether to restore access, extend the restriction, or permanently ban the account.
+
+**Edge Cases** 
+1.	What if an admin accidentally locks out a legitimate user?
+2.	What if a flagged user is actually innocent?
+3.	What happens if the admin is unavailable when an alert fires?
+4.	What if a malicious user creates multiple accounts to get around rate limits?
+
 ------------------------------------------------------------------------
 
 ## Final Note for the Assignment
